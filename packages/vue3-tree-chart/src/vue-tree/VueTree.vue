@@ -29,7 +29,10 @@
             v-bind:collapsed="node.data._collapsed"
           >
             <!-- 默认展示value字段 -->
-            <span>{{ node.data.value }}</span>
+            <div>
+              <p>{{ node.data.title }}</p>
+              <p>{{ node.data.value }}</p>
+            </div>
           </slot>
         </div>
       </transition-group>

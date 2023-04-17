@@ -5,8 +5,8 @@
     <button @click="onChangeDataset">change dataset</button>
 
     <vue-tree
-      style="width: 800px; height: 600px; border: 1px solid gray"
-      :dataset="sampleData"
+      style="width: 1440px; height: 950px; border: 1px solid gray"
+      :dataset="PCEmployeesData"
       :config="treeConfig"
     />
   </div>
@@ -20,6 +20,15 @@ export default {
   data() {
     return {
       showTree: false,
+      PCEmployeesData: {
+        value: "Byron Nicolaides",
+        title: "CEO",
+        children: [
+          { value: "BG,  Marketing and Product", children: [{ value: "Business Development" }, { value: "Digital Experience" } ] },
+          { value: "EPMBAO", children: [ { value: "Business Analysis" }, { value: "EPMO" } ]},
+          { value: "Group Finance", children: [ { value: "Accounting and Finance" } ]}
+        ]
+      },
       sampleData: {
         value: "1",
         children: [
@@ -32,7 +41,7 @@ export default {
   },
   methods: {
     onChangeDataset() {
-      this.sampleData = {
+      this.PCEmployeesData = {
         value: "100",
         children: [
           { value: "200" },
