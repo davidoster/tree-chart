@@ -30,8 +30,8 @@
           >
             <!-- 默认展示value字段 -->
             <div>
-              <p>{{ node.data.title }}</p>
-              <p>{{ node.data.value }}</p>
+              <p class="node-title">{{ node.data.title }}</p>
+              <p class="node-value">{{ node.data.value }}</p>
             </div>
           </slot>
         </div>
@@ -159,6 +159,22 @@ export default {
     fill: transparent !important;
     stroke: rgb(255, 50, 0) !important;
   }
+}
+
+.node-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.node-value {
+  font-size: 14px;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 </style>
 

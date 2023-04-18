@@ -21,12 +21,12 @@ export default {
     return {
       showTree: false,
       PCEmployeesData: {
-        value: "Byron Nicolaides",
         title: "CEO",
+        value: "Byron Nicolaides",
         children: [
-          { value: "BG,  Marketing and Product", children: [{ value: "Business Development" }, { value: "Digital Experience" } ] },
-          { value: "EPMBAO", children: [ { value: "Business Analysis" }, { value: "EPMO" } ]},
-          { value: "Group Finance", children: [ { value: "Accounting and Finance" } ]}
+          { title: "BG,  Marketing and Product", children: [{ title: "Business Development" }, { title: "Digital Experience" } ] },
+          { title: "EPMBAO", children: [ { title: "Business Analysis" }, { title: "EPMO" } ]},
+          { title: "Group Finance", children: [ { title: "Accounting and Finance", children: [ { title: "Accounting and Finance", children: [ { title: "Finance Director", value: "Andrikopoulos, Konstantinos" }, { title: "Finance Controller", value: "Kontos, Charalampos" }, { title: "Head of Finance", value: "Vasilakos, Konstantinos" } ] }] } ]}
         ]
       },
       sampleData: {
