@@ -26,7 +26,7 @@ export default {
         children: [
           { title: "BG,  Marketing and Product", children: [{ title: "Business Development" }, { title: "Digital Experience" } ] },
           { title: "EPMBAO", children: [ { title: "Business Analysis" }, { title: "EPMO" } ]},
-          { title: "Group Finance", children: [ { title: "Accounting and Finance", children: [ { title: "Accounting and Finance", children: [ { title: "Finance Director", value: "Andrikopoulos, Konstantinos" }, { title: "Finance Controller", value: "Kontos, Charalampos" }, { title: "Head of Finance", value: "Vasilakos, Konstantinos" } ] }] } ]}
+          { title: "Group Finance", children: [ { title: "Accounting and Finance", children: [ { title: "Accounting and Finance", children: [ { title: "Finance Director", value: "Andrikopoulos, Konstantinos" }, { title: "Finance Controller", value: "Kontos, Charalampos" }, { title: "Head of Finance", value: "Vasilakos, Konstantinos" }, { title: "Accounting and Finance Manager", value: "Tsapara, Sofia" } ] }] } ]}
         ]
       },
       sampleData: {
