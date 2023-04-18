@@ -157,7 +157,7 @@ export default {
   .link {
     stroke-width: 2px !important;
     fill: transparent !important;
-    stroke: #cecece !important;
+    stroke: rgb(255, 50, 0) !important;
   }
 }
 </style>
@@ -205,7 +205,7 @@ export default {
   cursor: pointer;
   pointer-events: all;
   position: absolute;
-  background-color: transparent;
+  background-color: rgb(168, 188, 208);
   box-sizing: border-box;
   transform: translate(-50%, -50%);
   display: flex;
@@ -214,5 +214,6 @@ export default {
   box-sizing: content-box;
   transition: all 0.8s;
   transition-timing-function: ease-in-out;
+  border: 1px solid lightsalmon;
 }
 </style>
